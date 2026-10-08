@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Elite&display=swap');
+
+.special-elite-regular,h1,h2,h4{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-regular,body{
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold,button{
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background:#524d93;}
+
+a {
+    text-decoration: none;
+    color: #D77B2F;
+}
+
+section{
+    max-width: 960px;
+    margin: auto;
+    color: #E6B886;
+    background-color: #563270;
+    padding: 50px;
+overflow: hidden;
+border: 5px groove #563270;
+}
+
+.realign img{
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header,footer{
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+color: #DD8137;
+text-decoration: dotted;
+}
+
+
+
+h2{
+    text-align: center;
+    color: #978E44;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #563270;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #E887C2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #978E44;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+button{
+    background-color: #54965D;
+    text-decoration: none;
+}

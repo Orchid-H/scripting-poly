@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR+Guides&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+.playwrite-ar-guides-regular,h1,h4 {
+  font-family: "Playwrite AR Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.instrument-serif-regular,h2 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-regular,p,h6 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background:#000000;}
+
+header{
+    background-color: rgb(2, 49, 2);
+    color: orchid;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(2, 49, 2);
+    color: orchid;
+    padding: 5px;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: orchid;
+}
+
+
+
+.bg_1{
+  margin: 40px;
+  background-color: rgb(86, 5, 31);
+}
+
+.bg_2{
+  margin: 40px;
+  background-color: rgb(2, 49, 2);
+}
+p{
+  margin: 20px;
+}
+
+h1,p{
+    color: orchid;
+    text-align: center;
+    padding: 5px;
+}
+
+img{
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #080002;
+  display: flex;
+  justify-content: center;
+}
+
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: orchid;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #5a071a;
+}

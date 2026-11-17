@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Instrument+Serif:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+.instrument-serif-regular,footer {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.tourney,a {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 50;
+}
+
+.instrument-serif-regular-italic,h1,h4 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.archivo-black-regular,p {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root{
+    --bs-primary: #0931e2;
+    --bs-primary-rgb:9, 49, 226;
+}
+
+body{
+    background-color: black;
+    color: ivory;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration-color: ivory;
+  color: ivory;
+}
+
+header, footer{
+    color: ivory;
+    background-color: #0931e2;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+}
+ main{
+
+    margin-bottom: 50px;
+ }
+
+ img{
+    filter: drop-shadow(-26px 9px 27px #0931e2);
+ }
+
